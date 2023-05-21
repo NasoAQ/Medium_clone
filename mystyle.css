@@ -10,8 +10,6 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 15px;
     border-bottom: 1px #00000011 solid;
     box-shadow: 0px 4px 4px 0px #eee;
     padding: 15px 0px 40px 0px;
@@ -57,20 +55,23 @@ main {
     display: flex;
 }
 
+main > * {
+    padding: 40px 0px 20px 0px;
+}
 
+section > * {
+    padding: 20px 50px 20px 0px;
+}
 
 section {
     margin-left: 100px;
-    border-right: 1px #00000011 solid;
     display: flex;
     flex-direction: column;
 }
 
 #subtitle {
-    width: 90%;
     display: flex;
     border-bottom: 1px #00000011 solid;
-    margin-bottom: 20px;
     padding-bottom: 15px;
     margin-left: 100px;
 }
@@ -85,8 +86,12 @@ section {
 
 .thumb-container {
     display: flex;
-    margin-right: 50px;
-    width: 90%;
+    align-items: center;
+    
+}
+
+.info-container {
+    padding-right: 50px;
 }
 
 .info-container div:first-of-type {
@@ -112,7 +117,30 @@ section {
 }
 
 .article {
-    width: 80%;
+    padding-top: 10px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.feedback p {
+    color: rgb(128, 128, 128);
+    font-size: 0.9rem;
+}
+
+.feedback span {
+    background-color: rgb(242,242,242);
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+
+.feedback i {
+    margin-left: 20px;
 }
 
 .thumb {
@@ -123,9 +151,132 @@ section {
     width: 100%;
 }
 
+aside {
+    text-align: center;
+    border-left: 1px #00000011 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px 0px 40px;
+}
 
+.social-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 10%;
+    justify-content: space-around;
+    border-bottom: 1px #00000011 solid;
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+}
 
+.social-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.social-container img:first-child {
+    width: 15%;
+}
+
+.social-container img:nth-of-type(2) {
+    width: 10%;
+}
+
+.social-container span {
+    font-size: 2rem;
+    color: rgb(128, 128, 128);
+}
+
+.social-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-container a {
+    color: rgb(128, 128, 128);
+}
+
+.list-container {
+    text-align: initial;
+}
+
+.list-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.list-container span {
+    font-weight: 600;
+}
+
+.list-container li {
+    background-color: rgb(242,242,242);
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 15px;
+}
+
+.social-profile {
+    width: 100%;
+    text-align: initial;
+}
+
+.social-profile span {
+    font-weight: 600;
+    
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.follow img {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.follow div:first-of-type {
+    display: flex;
+    align-items: center;
+}
+
+.follow button {
+    background-color: rgb(242,242,242);
+    border-radius: 15px;
+    padding: 5px 10px;    
+}
+
+.name-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name-profile p:first-of-type {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.name-profile p:nth-of-type(2) {
+    font-size: 0.8rem;
+    color: rgb(128,128,128);
+}
 
 
 
