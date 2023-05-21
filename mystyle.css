@@ -88,11 +88,13 @@ section {
 .thumb-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
 }
 
 .info-container {
     padding-right: 50px;
+    width: 80%;
 }
 
 .info-container div:first-of-type {
@@ -144,12 +146,13 @@ section {
     margin-left: 20px;
 }
 
-.thumb {
+/*.thumb {
     width: 50%;
-}
+}*/
 
 .thumb img {
-    width: 100%;
+    width: 200px;
+    height: 134px;
 }
 
 aside {
@@ -166,7 +169,7 @@ aside {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 10%;
+    height: 15%;
     justify-content: space-around;
     border-bottom: 1px #00000011 solid;
     font-size: 0.9rem;
@@ -317,7 +320,7 @@ footer img {
 
 footer a {
     color: rgb(53,151,50);
-    margin: 50px 0px 10px 0px;
+    margin: 30px 0px 10px 0px;
 }
 
 footer ul {
