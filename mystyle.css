@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: 1.1rem Helvetica, Arial, sans serif;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px #00000011 solid;
+    box-shadow: 0px 4px 4px 0px #eee;
+    padding: 15px 0px 40px 0px;
+}
+
+#logo img {
+    width: 20vw;
+    margin-left: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+}
+
+nav input {
+    background-color: white;
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+
+nav i {
+    margin: 10px;
+}
+
+nav form {
+    text-align: center;
+}
+
+nav div {
+    background-color: red;
+    border-radius: 50%;
+    padding: 6px 11px 6px 9px;
+    color: white;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+}
+
+
+
+section {
+    margin-left: 100px;
+    border-right: 1px #00000011 solid;
+    display: flex;
+    flex-direction: column;
+}
+
+#subtitle {
+    width: 90%;
+    display: flex;
+    border-bottom: 1px #00000011 solid;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    margin-left: 100px;
+}
+
+#subtitle span {
+    border-bottom: 1px #000000 solid;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.thumb-container {
+    display: flex;
+    margin-right: 50px;
+    width: 90%;
+}
+
+.info-container div:first-of-type {
+    display: flex;
+    align-items: center;
+}
+
+.info-container img {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info-container div:first-of-type span {
+    font-size: medium;
+    font-weight: 600;
+}
+
+.info-container h2 {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.article {
+    width: 80%;
+}
+
+.thumb {
+    width: 50%;
+}
+
+.thumb img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) { 
+    #logo img {
+        width: 40vw;
+        margin-left: 20px;
+    }
+
+    nav i, form {
+        opacity: 0;
+    }
+
+    section {
+        margin-left: 20px;
+        margin-right: 50px;
+        border-right: 1px #00000011 solid;
+    }
+
+ } /* for cellphones */
+
+
+
