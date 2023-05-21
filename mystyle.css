@@ -74,6 +74,7 @@ section {
     border-bottom: 1px #00000011 solid;
     padding-bottom: 15px;
     margin-left: 100px;
+    margin-right: 50px;
 }
 
 #subtitle span {
@@ -276,6 +277,59 @@ aside {
 .name-profile p:nth-of-type(2) {
     font-size: 0.8rem;
     color: rgb(128,128,128);
+}
+
+footer {
+    text-align: initial;
+    display: flex;
+    flex-direction: column;
+}
+
+footer span, footer h2 {
+    font-weight: 600;
+    margin:15px 0px 15px 0px;
+}
+
+.saved-profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.saved-profile div {
+    display: flex;
+    align-items: center;
+}
+
+.saved-profile span {
+    color: rgb(128, 128, 128);
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+footer img {
+    width: 2em;
+    height: 2em;
+    border-radius: 25%;
+    object-fit: cover;
+}
+
+footer a {
+    color: rgb(53,151,50);
+    margin: 50px 0px 10px 0px;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 0.9rem;
+    margin-top: 35px;
+}
+
+footer li {
+    padding: 7px;
 }
 
 
